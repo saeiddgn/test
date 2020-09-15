@@ -1,2 +1,2 @@
 # test
-Hi there this just for a simple test.
+Hi there this is just for a simple test.
