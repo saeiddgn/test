@@ -1,0 +1,16 @@
+#!groovy
+
+pipeline {
+
+  agent any
+stage: build
+pipeline {
+    agent any
+    stages {
+        stage('build') {
+            steps {
+                sh 'makefile'
+            }
+        }
+    }
+}
